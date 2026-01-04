@@ -1367,7 +1367,7 @@ __turbopack_context__.s([
     ()=>wpApi
 ]);
 // Altere para a URL do seu site WordPress
-const BASE_URL = 'https://ams.joaovictor.online/wp-json/wp/v2';
+const BASE_URL = '';
 const mapWPPost = (wpPost)=>{
     const featuredMedia = wpPost._embedded?.['wp:featuredmedia']?.[0];
     const author = wpPost._embedded?.['author']?.[0];
