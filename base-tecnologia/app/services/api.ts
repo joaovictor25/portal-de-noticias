@@ -2,7 +2,7 @@
 import { Post, WPCategory } from '../types';
 
 // Altere para a URL do seu site WordPress
-const BASE_URL = ''; 
+const BASE_URL = 'https://basetecnologica.joaovictor.online/wp-json/wp/v2'; 
 
 const mapWPPost = (wpPost: any): Post => {
   const featuredMedia = wpPost._embedded?.['wp:featuredmedia']?.[0];

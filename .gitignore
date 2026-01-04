@@ -1,0 +1,9 @@
+# dependências
+node_modules
+
+# build Next.js
+.next
+out
+
+# variáveis de ambiente
+.env*
