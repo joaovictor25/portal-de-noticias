@@ -2214,6 +2214,36 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.wp-content h1 {
+  margin-bottom: calc(var(--spacing) * 6);
+  font-size: var(--text-4xl);
+  line-height: var(--tw-leading, var(--text-4xl--line-height));
+  --tw-font-weight: var(--font-weight-bold);
+  font-weight: var(--font-weight-bold);
+}
+
+.wp-content h2 {
+  margin-bottom: calc(var(--spacing) * 5);
+  font-size: var(--text-3xl);
+  line-height: var(--tw-leading, var(--text-3xl--line-height));
+  --tw-font-weight: var(--font-weight-bold);
+  font-weight: var(--font-weight-bold);
+}
+
+.wp-content p {
+  margin-bottom: calc(var(--spacing) * 6);
+  font-size: var(--text-lg);
+  line-height: var(--tw-leading, var(--text-lg--line-height));
+  --tw-leading: var(--leading-relaxed);
+  line-height: var(--leading-relaxed);
+}
+
+.wp-content ul {
+  margin-bottom: calc(var(--spacing) * 6);
+  padding-left: calc(var(--spacing) * 6);
+  list-style-type: disc;
+}
+
 @property --tw-translate-x {
   syntax: "*";
   inherits: false;
